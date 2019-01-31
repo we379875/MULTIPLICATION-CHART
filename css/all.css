@@ -52,51 +52,49 @@ table {
 
 body {
   background: #F0F0F0; }
-  body .content .container {
+  body .content {
     width: 1280px;
     margin: 0 auto;
     padding-top: 40px;
     color: #2EB738; }
-    body .content .container .row {
-      display: block;
+    body .content .title {
+      text-align: center;
+      width: 350px;
+      float: left;
       margin-top: 40px;
-      margin-left: 60px; }
-      body .content .container .row .title {
-        text-align: center;
-        width: 350px;
-        float: left;
-        margin-left: 30px;
-        border-top: 1.5px solid #2EB738;
-        border-bottom: 1.5px solid #2EB738;
-        line-height: 72px; }
-        body .content .container .row .title h1 {
-          font-size: 56px;
-          padding-top: 113.5px;
-          font-weight: bold; }
-        body .content .container .row .title h2 {
-          font-size: 24px;
-          padding-bottom: 118.5px;
-          font-weight: bold; }
-      body .content .container .row .col-4 {
-        width: 350px;
-        background: #fff;
-        float: left;
-        margin-left: 30px;
-        border-radius: 100px 0px 30px 0px; }
-        body .content .container .row .col-4 .row {
-          margin: 64px auto; }
-          body .content .container .row .col-4 .row .col-6 {
-            display: block;
-            float: left;
-            width: 118px;
-            margin-left: 40px; }
-            body .content .container .row .col-4 .row .col-6 h2 {
-              font-size: 128px;
-              font-weight: bold;
-              text-shadow: #F0F0F0 4px 3px 0px; }
-            body .content .container .row .col-4 .row .col-6 p {
-              font-size: 24px;
-              line-height: 43px; }
+      margin-left: 60px;
+      border-top: 1.5px solid #2EB738;
+      border-bottom: 1.5px solid #2EB738;
+      line-height: 72px; }
+      body .content .title h1 {
+        font-size: 56px;
+        padding-top: 113.5px;
+        font-weight: bold; }
+      body .content .title h2 {
+        font-size: 24px;
+        padding-bottom: 118.5px;
+        font-weight: bold; }
+    body .content .col-4 {
+      width: 350px;
+      background: #fff;
+      float: left;
+      margin-top: 40px;
+      margin-left: 60px;
+      border-radius: 100px 0px 30px 0px; }
+      body .content .col-4 .row {
+        margin: 64px auto; }
+        body .content .col-4 .row .col-6 {
+          display: block;
+          float: left;
+          width: 118px;
+          margin-left: 40px; }
+          body .content .col-4 .row .col-6 h2 {
+            font-size: 128px;
+            font-weight: bold;
+            text-shadow: #F0F0F0 4px 3px 0px; }
+          body .content .col-4 .row .col-6 p {
+            font-size: 24px;
+            line-height: 43px; }
   body .footer {
     background: #2EB738;
     margin-top: 80px; }

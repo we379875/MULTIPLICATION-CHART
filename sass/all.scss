@@ -1,82 +1,72 @@
 @import 'reset';
 @import 'clearfix';
-
-body{
+body {
     background: #F0F0F0;
-    .content{
-        .container{
-            width: 1280px;
-            margin: 0 auto;
-            padding-top: 40px;
-            color: #2EB738;
-            .row{
-                display: block;
-                margin-top: 40px;
-                margin-left: 60px;
-                .title{
-                    text-align: center;
-                    width: 350px;
+    .content {
+        width: 1280px;
+        margin: 0 auto;
+        padding-top: 40px;
+        color: #2EB738;
+        .title {
+            text-align: center;
+            width: 350px;
+            float: left;
+            margin-top: 40px;
+            margin-left: 60px;
+            border-top: 1.5px solid #2EB738;
+            border-bottom: 1.5px solid #2EB738;
+            line-height: 72px;
+            h1 {
+                font-size: 56px;
+                padding-top: 113.5px;
+                font-weight: bold;
+            }
+            h2 {
+                font-size: 24px;
+                padding-bottom: 118.5px;
+                font-weight: bold;
+            }
+        }
+        .col-4 {
+            width: 350px;
+            background: #fff;
+            float: left;
+            margin-top: 40px;
+            margin-left: 60px;
+            border-radius: 100px 0px 30px 0px;
+            .row {
+                margin: 64px auto;
+                .col-6 {
+                    display: block;
                     float: left;
-                    margin-left: 30px;
-                    border-top: 1.5px solid #2EB738;
-                    border-bottom: 1.5px solid #2EB738;
-                    line-height: 72px;
-                    h1{
-                        font-size: 56px;
-                        padding-top: 113.5px;
+                    width: 118px;
+                    margin-left: 40px;
+                    h2 {
+                        font-size: 128px;
                         font-weight: bold;
+                        text-shadow: #F0F0F0 4px 3px 0px;
                     }
-                    h2{
+                    p {
                         font-size: 24px;
-                        padding-bottom: 118.5px;
-                        font-weight: bold;
+                        line-height: 43px;
                     }
                 }
-                .col-4{                
-                    width: 350px;
-                    background: #fff;
-                    float: left;
-                    margin-left: 30px;
-                    border-radius: 100px 0px 30px 0px;
-                    .row{
-                        margin: 64px auto;
-                        .col-6{
-                            display: block;
-                            float: left;
-                            width: 118px;
-                            margin-left: 40px;
-                            
-                            
-                            h2{
-                                font-size: 128px;
-                                font-weight: bold;
-                                text-shadow: #F0F0F0 4px 3px 0px;
-                            }
-                            p{
-                                font-size: 24px;
-                                line-height: 43px;
-                            }
-                        }
-                    }                
-                }
-            }                    
-        }    
+            }
+        }
     }
-    
-    .footer{
+    .footer {
         background: #2EB738;
         margin-top: 80px;
-        .container{
+        .container {
             background: #2EB738;
             width: 1280px;
             margin: 0 auto;
-            p{
+            p {
                 color: #fff;
                 padding: 8px 0;
                 float: right;
                 margin-right: 100px;
-            }            
+            }
         }
-
-    }        
+    }
 }
